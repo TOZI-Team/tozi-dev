@@ -1,0 +1,8 @@
+{
+    "name": "yms",
+    "image" : "img/yms.webp",
+    "bio": "我思故我在",
+    "social": [
+        { "github": "https://github.com/hiyms" }
+    ]
+}
