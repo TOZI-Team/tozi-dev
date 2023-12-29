@@ -19,6 +19,7 @@
     {{/* Copyright */}}
     {{ if .Site.Params.footer.showCopyright | default true }}
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      <a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2023043878号 |</a>
       {{- with replace .Site.Params.copyright "{ year }" now.Year  }}
       {{ . | emojify | markdownify }}
       {{- else }}
@@ -28,7 +29,6 @@
       {{- end }}
     </p>
     {{ end }}
-
     {{/* Theme attribution */}}
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
     <p class="text-xs text-neutral-500 dark:text-neutral-400">
