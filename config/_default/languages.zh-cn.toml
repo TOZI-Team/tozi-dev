@@ -10,7 +10,7 @@ title = "拓知麒麟 | TOZI Kylin"
   dateFormat = "2 January 2006"
   logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "由TOZI Dev驱动的技术博客"
+  # description = "由TOZI Dev驱动的技术博客"
   copyright = "Copyright MIT"
 
 [author]
