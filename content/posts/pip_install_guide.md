@@ -12,7 +12,7 @@ authors :
 
 # Python包管理的前世今生
 如果要提到Python的包管理，那么必定绕不开**PYPI**（Python Package Index，中文：Python 包索引）。其由 Tarek Ziade 在2003年发起，起初只是一个简单的仓库用来存储和分发 Python 软件包，但随着时间推移，PYPI 逐步完善，成为我们现在所看见的 PYPI.org。
-![image](https://img2024.cnblogs.com/blog/3418689/202406/3418689-20240623134020925-500349057.png)
+![image](https://s2.loli.net/2024/07/17/Ylt1o9VbnWfD5T7.png)
 回归正题，Python 早期并没有包管理工具，开发者需要手动从PYPI上下载源代码，构建，最后放置到`site-packages`文件夹。这种情况持续到2004年，Jim Hugunin创建了`easy_install`工具，极大地改善了这个过程，当然其也有很多问题。
 
 ------------
